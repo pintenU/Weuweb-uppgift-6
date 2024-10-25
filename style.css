@@ -1,0 +1,124 @@
+
+.flex-layout{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+nav{
+
+    display: flex;
+    background-color: hotpink;
+
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 2rem;
+
+    padding-inline: 1rem;
+
+}
+
+
+
+.primary-navigation{
+    display: flex;
+
+    list-style: none;
+
+    font-size: 1.125rem;
+
+    gap: 1rem;
+
+}
+
+
+
+.logo{
+
+width: 32px;
+height: 32px;
+
+}
+
+
+.nav-link{
+
+    font-size: larger;
+    
+    font-family:'Segoe UI';
+
+    font-weight: 600;
+
+    color: white;
+
+    
+}
+
+
+.nav-link:hover{
+
+    color: red;
+
+    font-weight: 700;
+
+}
+
+main{
+
+    margin-inline: auto;
+    width: 70%;
+}
+.grid-layout {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+
+    
+}
+
+.grid-child1{
+
+    grid-column: 1;
+    grid-row: 2;
+    gap:2rem;
+}
+
+.images {
+    grid-column: 2;
+    
+}
+
+h1 {
+    grid-column: span 2;
+    text-align: center;
+}
+
+
+img{
+    max-width: 100%;
+
+    display: block;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.grid-child2{
+
+grid-column: 2;
+
+}
+
+
+.inline-link:hover{
+
+color: black;
+
+}
+
+
